@@ -3,7 +3,7 @@
 <b>tFuzzer</b> is a <a href="https://www.thehacker.recipes/web/recon/directory-fuzzing#:~:text=Directory%20fuzzing%20(a.k.a.%20directory%20bruteforcing,attacker%20using%20a%20dictionnary%2Fwordlist.">web fuzzer</a> written in <i>golang</i>.
 
 ## :arrow_down: Download latest version [linux]
-You can download the latest version of <b>tFuzzer</b> <a href="">here</a>.<br><br><br>
+You can download the latest version of <b>tFuzzer</b> <a href="releases/latest">here</a>.<br><br><br>
 
 ## :hammer: Build from source [linux/windows]
 <b>Clone</b> the repository with:
