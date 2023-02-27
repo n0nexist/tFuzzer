@@ -75,7 +75,6 @@ func doRequest(url string, payload string) {
 	elapsed := time.Since(start)
 
 	if err != nil {
-		fmt.Println("Error making request:", err)
 		return
 	}
 	defer resp.Body.Close()
@@ -83,7 +82,6 @@ func doRequest(url string, payload string) {
 	// Read the response body
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		fmt.Println("Error reading response body:", err)
 		return
 	}
 
